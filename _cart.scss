@@ -1,0 +1,119 @@
+@import "_mixins.scss" ;
+
+.cart{
+    @include flex-jcc-aic ;
+    align-items: flex-start ;
+    padding: 26px;
+    background-color: #F2F2F2;
+    flex-direction: column;
+    max-width: 350px;
+    margin-inline: 12px;
+    margin-top: 21px;
+    border-radius: 12px;
+    row-gap: 29px;
+    width: 100%;
+    
+
+    &-section{
+        display: flex;
+        column-gap: 18.5px;
+        
+
+       
+
+        &-image{
+            img{
+                width: 125px;
+                border-radius: 13px;
+            }
+            
+        }
+
+        &-text{
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+
+            h1{
+                font-size: 16px;
+                color: #4e5150;
+            }
+
+            h2{
+                display: flex;
+                align-items: center;
+                column-gap: 12px;
+                margin-bottom: 26px;
+
+                span{
+                    color: #F2994A;
+                    font-size: 14px;
+
+                    &:last-of-type{
+                        font-size: 10px;
+                        color: #4e5150;
+                        text-decoration: line-through;
+                    }
+                }
+
+            }
+
+            
+
+
+        }
+
+        .card-section-counter{
+            display: flex;
+            border: 1px solid grey;
+            border-radius: 12px;
+            column-gap: 30px;
+            align-items: center;
+            padding-block:12px ;
+            padding-inline: 8px;
+            width: max-content;
+
+            h3{
+                font-size: 16px;
+            }
+
+            span{
+                background-color: #E0E0E0;
+                @include flex-jcc-aic ;
+                border-radius: 4px;
+                
+                
+
+                span{
+                    color: #828282;
+                    width: 100%;
+                    font-size: 16px;
+                    padding: 1px;
+                }
+            }
+        }
+    }
+
+    .card-text{
+        width: 100%;
+        margin-top: 87px;
+
+        h2 , h3{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            span{
+                font-size: 14px;
+                color: #333333;
+            }
+        }
+
+        h2{
+            padding-block:12px ;
+            border-bottom: 1.5px solid #BDBDBD;
+            border-top: 1.5px solid #BDBDBD;
+            margin-bottom: 16px;
+        }
+    }
+}

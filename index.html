@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Out Page</title>
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- google icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- css  -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <h1 class="main-heading">Checkout</h1>
+    <div class="main-section">
+
+
+
+
+        <div class="cart">
+
+            <div class="cart-section">
+                <div class="cart-section-image">
+                    <img src="./photo1.png" alt="bag image">
+                </div>
+                <div class="cart-section-text">
+                    <h1>
+                        Vintage Backbag
+                    </h1>
+
+                    <h2>
+                        <span>$54.99</span>
+                        <span>$94.99</span>
+                    </h2>
+
+                    <div class="card-section-counter">
+                        <span><span class="material-symbols-outlined">
+                                remove
+                            </span></span>
+                        <h3>1</h3>
+                        <span><span class="material-symbols-outlined">
+                                add
+                            </span></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cart-section">
+                <div class="cart-section-image">
+                    <img src="./photo2.png" alt="bag image">
+                </div>
+                <div class="cart-section-text">
+                    <h1>
+                        Levi Shoes
+                    </h1>
+
+                    <h2>
+                        <span>$74.99</span>
+                        <span>$124.99</span>
+                    </h2>
+
+                    <div class="card-section-counter">
+                        <span><span class="material-symbols-outlined">
+                                remove
+                            </span></span>
+                        <h3>1</h3>
+                        <span><span class="material-symbols-outlined">
+                                add
+                            </span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-text">
+                <h2>
+                    <span>Shipping</span>
+                    <span>$19</span>
+                </h2>
+
+                <h3>
+                    <span>Total</span>
+                    <span>$148.98</span>
+                </h3>
+            </div>
+
+        </div>
+
+        <div class="main-form-section">
+            <div class="_form">
+                <h1 class="_form-heading">Contact information</h1>
+
+                <form action="#" class="contact-form-section">
+                    <label for="email" class="_form-label">E-mail</label>
+                    <div class="_form_section">
+                        <span class="material-symbols-outlined mail-icon">
+                            mail
+                        </span>
+                        <input type="email" name="email" id="email" class="_form_section-input"
+                            placeholder="Enter your email...">
+
+                    </div>
+                </form>
+
+                <form action="#" class="phone-form-section">
+                    <label for="phone" class="_form-label">Phone</label>
+                    <div class="_form_section">
+                        <span class="material-symbols-outlined mail-icon">
+                            phone
+                        </span>
+                        <input type="number" name="email" id="email" class="_form_section-input"
+                            placeholder="Enter your phone...">
+
+                    </div>
+                </form>
+
+
+            </div>
+
+            <div class="_form">
+                <h1 class="_form-heading">Shipping Address</h1>
+
+                <form action="#" class="contact-form-section">
+                    <label for="email" class="_form-label">Full name</label>
+                    <div class="_form_section">
+                        <span class="material-symbols-outlined mail-icon">
+                            account_circle
+                        </span>
+                        <input type="text" name="email" id="email" class="_form_section-input" value="Rodney Cotton">
+
+                    </div>
+                </form>
+
+                <form action="#" class="address-form-section">
+                    <label for="address" class="_form-label">Address</label>
+                    <div class="_form_section">
+                        <span class="material-symbols-outlined mail-icon">
+                            home
+                        </span>
+                        <input type="text" name="address" id="address" class="_form_section-input"
+                            placeholder="Your address...">
+
+                    </div>
+                </form>
+
+                <form action="#" class="city-form-section">
+                    <label for="city" class="_form-label">City</label>
+                    <div class="_form_section">
+                        <span class="material-symbols-outlined mail-icon">
+                            location_city
+                        </span>
+                        <input type="text" name="city" id="city" class="_form_section-input" placeholder="Your city...">
+
+                    </div>
+                </form>
+
+                <div class="postal-country">
+                    <form action="#" class="country-form">
+                        <label for="country-form-label">Country</label>
+                        <div class="country-form-input">
+                            <span class="material-symbols-outlined mail-icon">
+                                location_city
+                            </span>
+                            <input list="countries" placeholder="Your country...">
+                            <span class="material-symbols-outlined down">
+                                expand_more
+                            </span>
+                        </div>
+
+                        <datalist id="countries">
+                            <option value="India">India</option>
+                            <option value="India">USA</option>
+                            <option value="India">UK</option>
+                        </datalist>
+                    </form>
+
+                    <form action="#" class="postal-form">
+                        <label for="city">Postal code</label>
+                        <div>
+                            <span class="material-symbols-outlined">
+                                markunread_mailbox
+                            </span>
+                            <input type="number" name="city" id="city" placeholder="Your postal code...">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Save this information for next time</label>
+                </div>
+
+                <button class="button">
+                    Continue
+                </button>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <footer>
+        <p>created by <span>Gaurav-patil-10</span> - devChallenges.io</p>
+    </footer>
+
+
+
+</body>
+
+</html>

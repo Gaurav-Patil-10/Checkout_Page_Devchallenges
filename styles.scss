@@ -1,0 +1,70 @@
+// google fonts 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import '_cart.scss';
+@import '_mixins.scss';
+@import "_contact-form.scss";
+
+// google icons
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding-inline: 45px;
+    padding-block: 17px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+body {
+    div {
+        
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        
+    }
+    background-color: #FFFFFF;
+}
+
+.main-heading{
+    font-size: 24px;
+    font-family: 'montserrat' , sans-serif;
+    margin-left: 3.2%;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
+
+footer{
+    margin: 0 auto;
+    width: 100%;
+
+    p{
+        font-family: 'montserrat' , sans-serif;
+        text-align: center;
+        margin-bottom: 2rem;
+        font-weight: 500;
+        color: #BDBDBD;
+
+        
+    }
+    span{
+        font-weight: 700;
+    }
+}
